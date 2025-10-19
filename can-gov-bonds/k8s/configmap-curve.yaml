@@ -1,0 +1,11 @@
+# k8s/configmap.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: bond-curve-config
+data:
+  1-3Y: "0.01"
+  3-5Y: "0.015"
+  5-10Y: "0.02"
+  10-15Y: "0.025"
+  15-30Y: "0.03"

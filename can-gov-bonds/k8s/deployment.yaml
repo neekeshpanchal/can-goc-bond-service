@@ -1,0 +1,31 @@
+# k8s/deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: can-gov-bonds
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: can-gov-bonds
+  template:
+    metadata:
+      labels:
+        app: can-gov-bonds
+    spec:
+      containers:
+        - name: pricing-api
+          image: can-gov-bonds:local
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 5000
+          envFrom:
+            - configMapRef:
+                name: bond-curve-config
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+            limits:
+              cpu: "500m"
+              memory: "512Mi"
