@@ -28,9 +28,6 @@ Fully containerized API running in a local Kubernetes cluster, accessible extern
 
   * Explored Horizontal Pod Autoscaler for CPU-based scaling.
   * Ensured multiple pods handle load for service availability.
+<img width="939" height="334" alt="image" src="https://github.com/user-attachments/assets/adfc1f51-0294-4a40-830f-2869583ad454" />
 
-* **Debugging and Validation**
-
-  * Resolved service selector mismatches and networking issues.
-  * Confirmed API accessibility via Ingress endpoint.
 
