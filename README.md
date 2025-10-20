@@ -1,7 +1,5 @@
-
-
 ### Local Kubernetes Deployment of a Bond Pricing API
-Fully containerized API running in a local Kubernetes cluster, accessible externally, and ready for scaling.
+Fully containerized API running in a local Kubernetes cluster.
 
 * **Python API Development**
 
