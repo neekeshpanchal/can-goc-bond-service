@@ -29,7 +29,7 @@ Fully containerized API running in a local Kubernetes cluster.
   * Ensured multiple pods handle load for service availability.
  
 
-<img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/d86d9909-27f6-4b9f-a74f-d74a5738d9cc" />
+<img width="500" height="600" alt="image" src="https://github.com/user-attachments/assets/d86d9909-27f6-4b9f-a74f-d74a5738d9cc" />
 
 <img width="939" height="334" alt="image" src="https://github.com/user-attachments/assets/adfc1f51-0294-4a40-830f-2869583ad454" />
 
