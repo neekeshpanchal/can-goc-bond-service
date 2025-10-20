@@ -27,6 +27,10 @@ Fully containerized API running in a local Kubernetes cluster.
 
   * Explored Horizontal Pod Autoscaler for CPU-based scaling.
   * Ensured multiple pods handle load for service availability.
+ 
+
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/d86d9909-27f6-4b9f-a74f-d74a5738d9cc" />
+
 <img width="939" height="334" alt="image" src="https://github.com/user-attachments/assets/adfc1f51-0294-4a40-830f-2869583ad454" />
 
 # **Bond Pricing API – `/price` Endpoint**
